@@ -12,7 +12,7 @@ import numpy as np
 
 from numpy.testing import assert_almost_equal
 
-from . import ransac
+import ransac
 
 #------------------------------------------------------------------------------
 

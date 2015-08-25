@@ -15,9 +15,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-from . import timesync
-from . import tracking
-from . import rotations
+import timesync
+import tracking
+import rotations
 
 def estimate_pose(image_sequences, imu_sequences, K):
     """Estimate sync between IMU and camera based on gyro readings and optical flow.

@@ -17,9 +17,9 @@ import re
 
 import scipy.io
 
-from . import rotations
-from . import fastintegrate
-from . import l3g4200d
+import rotations
+import fastintegrate
+import l3g4200d
 #--------------------------------------------------------------------------
 # Classes
 #--------------------------------------------------------------------------

@@ -22,10 +22,10 @@ import scipy.signal as ssig
 import scipy.optimize
 from matplotlib.mlab import normpdf
 
-from . import tracking
-from .imu import IMU
-from . import rotations
-from . import znccpyr
+import tracking
+from imu import IMU
+import rotations
+import znccpyr
 
 #--------------------------------------------------------------------------
 # Public functions

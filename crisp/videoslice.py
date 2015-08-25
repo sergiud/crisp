@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 import cv2
 import numpy as np
 
-from . import rotations
-from . import tracking
+import rotations
+import tracking
         
 class Slice(object):
     def __init__(self, start, end, points):

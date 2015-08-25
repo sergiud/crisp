@@ -15,7 +15,7 @@ logger = logging.getLogger('crisp')
 import numpy as np
 import scipy.optimize
 
-from . import videoslice, rotations, ransac, timesync, fastintegrate
+import videoslice, rotations, ransac, timesync, fastintegrate
 
 PARAM_SOURCE_ORDER = ('user', 'initialized', 'calibrated') # Increasing order of importance
 PARAM_ORDER = ('gyro_rate', 'time_offset', 'gbias_x', 'gbias_y', 'gbias_z', 'rot_x', 'rot_y', 'rot_z')

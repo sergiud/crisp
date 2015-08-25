@@ -15,7 +15,7 @@ logger = logging.getLogger('crisp')
 import cv2
 import numpy as np
 
-from . import fastintegrate, tracking
+import fastintegrate, tracking
 
 class GyroStream(object):
     def __init__(self):
